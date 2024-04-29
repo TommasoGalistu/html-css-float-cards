@@ -2,14 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Fredoka, Verdana, Geneva, Tahoma, sans-serif
 }
 
 /* descrizione delle macroaree */
 header{
-    background-color: red;
     border: 3px solid black;
-    height: 5rem;
     /* prove debug da cancellare */
+    text-align: center;
+    padding: 1.5rem 0;
 }
 
 main{
@@ -29,6 +30,14 @@ main::after{
 
 
 /* descrizioni dettagliate */
+
+h1{
+   color: #E53170; 
+}
+
+
+
+
 
 #cardTeam{
     background-color: yellow;
