@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,22 +6,17 @@
 }
 
 /* descrizione delle macroaree */
-#window{
+#window {
     width: 80%;
     margin: auto;
 }
 
-header{
-    text-align: center;
-    
-}
-
-header, main{
+header,
+main {
     padding: 1.5rem 0;
 }
 
-
-main::after{
+main::after {
     content: '';
     display: table;
     clear: both;
@@ -29,37 +24,39 @@ main::after{
 
 
 /* descrizioni dettagliate */
-
-h1{
-   color: #E53170; 
+h1, p {
+    text-align: center;
 }
 
-p{
-    text-align: center;
+h1 {
+    color: #E53170;
+}
+
+p {
     margin: 0 10px 1rem;
 }
 
-.cardTeam{
+.cardTeam {
     background-color: #0F0E17;
     float: left;
     height: 6rem;
     width: calc((100% / 3) - 20px);
-    margin: 15px 10px;
+    margin: 10px;
     color: white;
-    box-shadow: 0.3em 0.3em 1em rgb(0, 0, 0, 0.4);;
+    box-shadow: 0.3em 0.3em 1em rgb(0, 0, 0, 0.4);
 }
 
-.cardTeam img{
+.cardTeam img {
     height: 100%;
     float: left;
     margin-right: 0.5rem;
 }
 
-.cardTeam .descrizioneFoto{
+.cardTeam .descrizioneFoto {
     padding-bottom: 0.2rem;
     margin: 0.4rem 0;
 }
 
-.contatto{
+.descrizioneFoto .contatto {
     color: #67C7EF;
 }
