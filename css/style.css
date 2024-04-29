@@ -12,8 +12,6 @@
 }
 
 header{
-    border: 3px solid black;
-    /* prove debug da cancellare */
     text-align: center;
     
 }
@@ -21,12 +19,7 @@ header{
 header, main{
     padding: 1.5rem 0;
 }
-main{
-    background-color: red;
-    border: 3px solid black;
-    
-    /* prove debug da cancellare*/
-}
+
 
 main::after{
     content: '';
@@ -43,7 +36,7 @@ h1{
 
 p{
     text-align: center;
-    margin: 0 10px;
+    margin: 1rem 10px;
 }
 
 #cardTeam{
@@ -55,7 +48,7 @@ p{
     color: white;
 }
 
-#cardTeam img{
+.cardTeam img{
     height: 100%;
     float: left;
     margin-right: 0.5rem;
