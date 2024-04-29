@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* descrizione delle macroaree */
+header{
+    background-color: red;
+    border: 3px solid black;
+    height: 5rem;
+    /* prove debug da cancellare */
+}
+
+main{
+    background-color: red;
+    border: 3px solid black;
+    
+    /* prove debug da cancellare*/
+    
+
+}
+
+main::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/* descrizioni dettagliate */
+
+#cardTeam{
+    background-color: yellow;
+    border: 3px solid black;
+    height: 2rem;
+    width: 2rem;
+    /* prove debug */
+    float: left;
+}
