@@ -42,16 +42,29 @@ h1{
 
 p{
     margin: 2rem 0;
+    text-align: center;
 }
 
 #cardTeam{
-    background-color: yellow;
-    border: 3px solid black;
-    
-    /* prove debug */
+    background-color: #0F0E17;
     float: left;
     height: 5rem;
-    width: 14rem;
-    padding: 1rem;
+    width: 20rem;
     margin-bottom: 1rem;
+    color: white;
+}
+
+#cardTeam img{
+    height: 100%;
+    float: left;
+    margin-right: 0.5rem;
+}
+
+#cardTeam .descrizioneFoto{
+    padding-bottom: 0.2rem;
+    margin: 0.1rem 0;
+}
+
+.contatto{
+    color: #67C7EF;
 }
