@@ -15,16 +15,17 @@ header{
     border: 3px solid black;
     /* prove debug da cancellare */
     text-align: center;
-    padding: 1.5rem 0;
+    
 }
 
+header, main{
+    padding: 1.5rem 0;
+}
 main{
     background-color: red;
     border: 3px solid black;
     
     /* prove debug da cancellare*/
-    
-
 }
 
 main::after{
@@ -41,16 +42,16 @@ h1{
 }
 
 p{
-    margin: 2rem 0;
     text-align: center;
+    margin: 0 10px;
 }
 
 #cardTeam{
     background-color: #0F0E17;
     float: left;
     height: 5rem;
-    width: 20rem;
-    margin-bottom: 1rem;
+    width: calc((100% / 3) - 20px);
+    margin: 15px 10px;
     color: white;
 }
 
